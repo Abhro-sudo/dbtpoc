@@ -1,0 +1,13 @@
+jeet_flake:
+    target: dev
+    outputs:
+        dev:
+            type: snowflake
+            account: rka47170.us-east-1
+            user: kshounish
+            password: Mkm3k-8f44w
+            role: ACCOUNTADMIN
+            database: KD_CURATED
+            warehouse: COMPUTE_WH
+            schema: test
+            threads: 4
